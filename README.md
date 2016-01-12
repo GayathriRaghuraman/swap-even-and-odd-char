@@ -7,8 +7,8 @@ scanf("%s',&s);
 for(i=0;i<strlen(s);i+=2)
 {
 tmp=s[i+1];
-s[i]=str[i+1];
+s[i]=s[i+1];
 s[i+1]=tmp;
 }
-printf(str);
+printf("%d",s);
 }
